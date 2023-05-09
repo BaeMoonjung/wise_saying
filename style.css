@@ -1,0 +1,80 @@
+body{
+	background-image: url("background_wise.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.total-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	border-radius: 10%;
+	margin-top: 5%;
+	max-width: 600px;
+	min-width: 360px;
+	min-height: 400px;
+	width: 80%;		
+}
+.intro{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: white;
+}
+
+.intro h1{
+	font-size: 1.5em;
+}
+
+.intro h2{
+	font-size: 0.8em;
+}
+
+.intro img{
+	width: 80%;
+	margin-top: 10px;
+}
+
+.result-container{
+	border-radius: 5px;
+	width: 80%;
+	background-color: white;
+	color: black;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.result{
+	display: flex;
+	justify-content: center;
+	width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 5px;
+	color: black;
+}
+.action {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.btn{
+	margin: 5px auto;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	background-color: lightblue;
+	color: black;
+	border: none;
+	border-radius: 5px;
+}
