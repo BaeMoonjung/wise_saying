@@ -1,0 +1,2 @@
+User-agent: *
+Allow:/ https://sportswisesaying.netlify.app/sitemap.xml
